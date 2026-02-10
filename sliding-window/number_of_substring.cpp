@@ -12,9 +12,9 @@ int get_substring_cnt(std::string str){
         mpp[str[right_ptr]]++;
         while(mpp.size() == 3 ){
             sub_string_cnt+=(n-right_ptr);
-            mpp[left_ptr]--;
-            if(mpp[left_ptr] ==0){
-                mpp.erase(left_ptr);
+            mpp[str[left_ptr]]--;
+            if(mpp[str[left_ptr]] ==0){
+                mpp.erase(str[left_ptr]);
             }
             left_ptr++;
         }
