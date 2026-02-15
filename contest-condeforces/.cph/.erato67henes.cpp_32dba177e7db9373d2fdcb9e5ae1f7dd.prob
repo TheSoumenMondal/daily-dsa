@@ -1,0 +1,1 @@
+{"name":"Local: erato67henes","url":"/Users/soumen/Developer/dsa/contest-condeforces/erato67henes.cpp","tests":[{"id":1771172072088,"input":"2\n5\n1 7 6 7 67\n5\n1 3 5 7 8\n","output":"YES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/soumen/Developer/dsa/contest-condeforces/erato67henes.cpp","group":"local","local":true}
