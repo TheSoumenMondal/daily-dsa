@@ -65,7 +65,7 @@ Node* connect(Node* root){
         return root;
     }
     Node* leftMost = root;
-    while(leftMost != nullptr){
+    while(leftMost->left != nullptr){
         Node* curr = leftMost;
         while(curr != nullptr){
             curr->left->next = curr->right;
@@ -74,7 +74,7 @@ Node* connect(Node* root){
             }
             curr = curr->next;
         }
-        leftMost = leftMost->next;
+        leftMost = leftMost->left;
     }
     return root;
 }
